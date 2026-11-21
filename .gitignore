@@ -8,6 +8,7 @@ data/test/*
 # Virtual environment
 .venv/
 venv/
+env/
 
 # Model checkpoints
 *.pth
@@ -28,5 +29,6 @@ catboost_info/
 
 # Temporary files
 *.tmp
+*.log
 .DS_Store
 Thumbs.db
