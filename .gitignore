@@ -1,8 +1,32 @@
+# Dataset
 data/train/*
 data/test/*
 
 !data/train/.gitkeep
 !data/test/.gitkeep
 
-
+# Virtual environment
 .venv/
+venv/
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Training logs
+catboost_info/
+**/catboost_info/
+
+# Temporary files
+*.tmp
+.DS_Store
+Thumbs.db
